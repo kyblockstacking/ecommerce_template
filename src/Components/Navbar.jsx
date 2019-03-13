@@ -11,9 +11,10 @@ class Navbar extends Component {
                 </div>
 
                 <div className='bottomNavbar' style={styles.bottomNavBar}>
-                    <a href='#' style={{}}>Shop Plants</a>
-                    <a href='#' style={styles.bottomNavBar.pots}>Pots</a>
-                    <a href='#' style={{}}>Accessories</a>
+                    <div style={styles.bottomNavBar.subShopLabel}>SHOP</div>
+                    <a href='#' style={styles.bottomNavBar.links}>Plants</a>
+                    <a href='#' style={styles.bottomNavBar.links}>Pots</a>
+                    <a href='#' style={styles.bottomNavBar.links}>Accessories</a>
                 </div>
 
             </nav>
@@ -37,7 +38,8 @@ const styles = {
         brand: {
             marginRight: '20%',
             width: '40%',
-            textDecoration: 'none'
+            textDecoration: 'none',
+            color: '#1C572F'
         },
         name: {
             width: '40%',
@@ -51,9 +53,17 @@ const styles = {
         flexDirection: 'row',
         margin: '0 auto',
         width: '90vw',
-
-        pots: {
-            padding: '0 1em 0 1em'
+        links: {
+            padding: '0 1.5em 0 0',
+            color: '#1C572F',
+            textDecoration: 'none'
+        },
+        subShopLabel: {
+            margin: '0 1.5em 0 0',
+            padding: '0 10px 0 10px',
+            borderBottom: '1px solid black',
+            borderRight: '1px solid black',
+            borderLeft: '1px solid black',
         }
     }
 }
