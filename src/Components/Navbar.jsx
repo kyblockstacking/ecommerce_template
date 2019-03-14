@@ -7,7 +7,10 @@ class Navbar extends Component {
 
                 <div className='topNavbar' style={styles.topNavbar}>
                     <a href='/' style={styles.topNavbar.brand}>DANK POTS</a>
-                    <a href='https://github.com/kyblockstacking/' target='_blank' style={styles.topNavbar.name}>Kevin Yang</a>
+                    <a href='https://github.com/kyblockstacking/' target='_blank' style={styles.topNavbar.name}>
+                        <a href='#' className='fas fa-shopping-cart' style={styles.cart}>&nbsp;(1)&nbsp;</a>
+                        Kevin Yang
+                    </a>
                 </div>
 
                 <div className='bottomNavbar' style={styles.bottomNavBar}>
@@ -65,6 +68,9 @@ const styles = {
             borderRight: '1px solid black',
             borderLeft: '1px solid black',
         }
+    },
+    cart: {
+        textDecoration: 'none'
     }
 }
 
