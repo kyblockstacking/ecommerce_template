@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
+import '../CSS/Navbar.scss';
+
 class Navbar extends Component {
+
     render() {
         return (
             <nav className='navbar' style={styles.navbar}>
@@ -15,9 +18,9 @@ class Navbar extends Component {
 
                 <div className='bottomNavbar' style={styles.bottomNavBar}>
                     <div style={styles.bottomNavBar.subShopLabel}>SHOP</div>
-                    <a href='#' style={styles.bottomNavBar.links}>Plants</a>
-                    <a href='#' style={styles.bottomNavBar.links}>Pots</a>
-                    <a href='#' style={styles.bottomNavBar.links}>Accessories</a>
+                    <a href='#' className='navbarLinks'>Plants</a>
+                    <a href='#' className='navbarLinks'>Pots</a>
+                    <a href='#' className='navbarLinks'>Accessories</a>
                 </div>
 
             </nav>
@@ -56,11 +59,6 @@ const styles = {
         flexDirection: 'row',
         margin: '0 auto',
         width: '90vw',
-        links: {
-            padding: '0 1.5em 0 0',
-            color: '#1C572F',
-            textDecoration: 'none'
-        },
         subShopLabel: {
             margin: '0 1.5em 0 0',
             padding: '0 10px 0 10px',

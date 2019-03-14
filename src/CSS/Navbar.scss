@@ -1,0 +1,25 @@
+.navbarLinks {
+  margin: 0 1.5em 0 0;
+  color: #1C572F;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.navbarLinks::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1C572F;
+  transform-origin: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.navbarLinks:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
