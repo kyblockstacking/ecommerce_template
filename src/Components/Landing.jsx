@@ -22,7 +22,7 @@ const styles = {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'right',
         backgroundColor: '#E8E7E3',
-        height: '100vh'
+        height: '95vh'
     },
     heading: {
         margin: '0',

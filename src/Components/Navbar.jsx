@@ -42,13 +42,11 @@ const styles = {
         alignItems: ' center',
 
         brand: {
-            marginRight: '20%',
-            width: '40%',
             textDecoration: 'none',
             color: '#1C572F'
         },
         name: {
-            width: '40%',
+            marginLeft: 'auto',
             textAlign: 'right',
             justifyContent: 'flex-end',
             textDecoration: 'none'
