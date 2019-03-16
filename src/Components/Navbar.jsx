@@ -9,18 +9,18 @@ class Navbar extends Component {
             <nav className='navbar' style={styles.navbar}>
 
                 <div className='topNavbar' style={styles.topNavbar}>
-                    <a href='/' style={styles.topNavbar.brand}>DANK POTS</a>
-                    <a href='https://github.com/kyblockstacking/' target='_blank' style={styles.topNavbar.name}>
-                        <a href='#' className='fas fa-shopping-cart' style={styles.cart}>&nbsp;(1)&nbsp;</a>
+                    <a className='brand' href='/' style={styles.topNavbar.brand}>DANK POTS</a>
+                    <a className='name' href='https://github.com/kyblockstacking/' target='_blank' style={styles.topNavbar.name}>
+                        <a className='cart' href='#' className='fas fa-shopping-cart' style={styles.cart}>&nbsp;(1)&nbsp;</a>
                         Kevin Yang
                     </a>
                 </div>
 
                 <div className='bottomNavbar' style={styles.bottomNavBar}>
-                    <div style={styles.bottomNavBar.subShopLabel}>SHOP</div>
-                    <a href='#' className='navbarLinks'>Plants</a>
-                    <a href='#' className='navbarLinks'>Pots</a>
-                    <a href='#' className='navbarLinks'>Accessories</a>
+                    <div className='subShopLabel' style={styles.bottomNavBar.subShopLabel}>SHOP</div>
+                    <a className='navbarLinks' href='#'>Plants</a>
+                    <a className='navbarLinks' href='#'>Pots</a>
+                    <a className='navbarLinks' href='#'>Accessories</a>
                 </div>
 
             </nav>
