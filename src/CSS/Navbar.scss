@@ -1,3 +1,46 @@
+.navbar {
+  position: fixed;
+  margin-left: 5vw;
+}
+
+.topNavbar {
+  margin: 0 auto;
+  width: 90vw;
+  border-bottom: 1px solid #000;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.brand {
+  text-decoration: none;
+  color: #1C572F
+}
+
+.cart {
+  text-decoration: none;
+}
+
+.name {
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.bottomNavbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.subShopLabel {
+  margin: 0 1.5em 0 0;
+  padding: 0 10px 0 10px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
 .navbarLinks {
   margin: 0 1.5em 0 0;
   color: #1C572F;
