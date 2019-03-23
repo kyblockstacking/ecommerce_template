@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar.jsx';
 import Landing from './Components/Landing.jsx';
 
-import FeatureBox from './Components/Reusable/FeatureBox.jsx';
+import FeaturedSection from './Components/FeaturedSection.jsx';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className='App'>
         <Navbar />
         <Landing />
-        <FeatureBox />
+        <FeaturedSection />
       </div>
     );
   };

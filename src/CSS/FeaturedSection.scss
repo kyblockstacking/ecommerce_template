@@ -1,0 +1,13 @@
+.featuredSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.featuredTitle {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
