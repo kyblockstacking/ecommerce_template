@@ -1,0 +1,32 @@
+.background {
+    background-image: url(../Images/landing_page_background.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #e8e7e3;
+    height: 95vh;
+}
+
+.landingHeader {
+    margin: 0;
+    padding: 25vh 0 0 10vw;
+    font-size: 3em;
+    color: #1c572f;
+    font-style: italic;
+}
+
+.landingSubHeader {
+    margin: 0 0 5vh 12vw;
+    font-style: italic;
+    color: #906137;
+}
+
+.shopNowButton {
+    margin: 0 0 0 14vw;
+    padding: 15px 50px 15px 50px;
+    background-color: #599c01;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
