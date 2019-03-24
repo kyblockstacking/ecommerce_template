@@ -10,8 +10,8 @@ class FeaturedSection extends Component {
         return (
             <div className='featuredSection'>
                 <h1 class='featuredTitle'>FEATURED</h1>
-                <FeatureBox src={pot1} />
-                <FeatureBox src={pot1} />
+                <FeatureBox src={pot1} title='Pot #1' description="This is pot #1's description" />
+                <FeatureBox src={pot1} title='Pot #2' description="This is pot #2's description" />
             </div>
         );
     };

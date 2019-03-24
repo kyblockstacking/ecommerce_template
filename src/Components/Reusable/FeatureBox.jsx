@@ -7,12 +7,15 @@ class FeatureBox extends Component {
         this.state = {};
     };
 
-
     render() {
+
+        const { src, title, description } = this.props; // destructure incoming props for readability
+
         return (
             <div className='featureBox'>
-                <img className='pot1' src={this.props.src} alt='pot1' />
-                <h3 className='featureTitle'>Pot #1</h3>
+                <img className='pot1' src={src} alt='pot1' />
+                <h3 className='featureTitle'>{title}</h3>
+                <p className='featureDescription'>{description}</p>
             </div>
         );
     };
