@@ -3,19 +3,22 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navbar from './Components/Navbar.jsx';
 import Landing from './Components/Landing.jsx';
-
 import FeaturedSection from './Components/FeaturedSection.jsx';
+
+import Shop from './Components/Shop.jsx';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className='App'>
-          {/* HOME PAGE START */}
-          <Route exact path='/' component={Navbar} />
+
+          <Route path='/' component={Navbar} />
+
           <Route exact path='/' component={Landing} />
           <Route exact path='/' component={FeaturedSection} />
-          {/* HOME PAGE END */}
+
+          <Route exact path='/shop' component={Shop} />
         </div>
       </Router >
     );
