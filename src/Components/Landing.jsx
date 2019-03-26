@@ -9,7 +9,7 @@ class Landing extends Component {
             <div className='background'>
                 <h1 className='landingHeader'>GET HIGH</h1>
                 <h2 className='landingSubHeader'>quality pots and plants</h2>
-                <a className='shopNowButton' href='#'>SHOP NOW</a>
+                <a className='shopNowButton' href='/shop'>SHOP NOW</a>
             </div>
         );
     };
