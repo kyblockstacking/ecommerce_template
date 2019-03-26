@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
 import '../CSS/HotDealsCarousel.scss';
 
 import deal1 from '../Images/deal1.jpg';
@@ -12,9 +12,9 @@ class HotDealsCarousel extends Component {
             <Carousel className='hotDealsCarousel'>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 hotDealsImage"
+                        className='d-block w-100 hotDealsImage'
                         src={deal1}
-                        alt="First slide"
+                        alt='First slide'
                     />
                     <Carousel.Caption>
                         <h3>First slide label</h3>
@@ -23,9 +23,9 @@ class HotDealsCarousel extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 hotDealsImage"
+                        className='d-block w-100 hotDealsImage'
                         src={deal2}
-                        alt="Second slide"
+                        alt='Second slide'
                     />
 
                     <Carousel.Caption>
@@ -35,9 +35,9 @@ class HotDealsCarousel extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 hotDealsImage"
+                        className='d-block w-100 hotDealsImage'
                         src={deal3}
-                        alt="Third slide"
+                        alt='Third slide'
                     />
 
                     <Carousel.Caption>

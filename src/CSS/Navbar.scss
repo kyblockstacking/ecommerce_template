@@ -1,6 +1,6 @@
 .navbar {
   // position: fixed;
-  background: #E9E8E6;
+  background: #e9e8e6;
   max-width: 100vw;
 }
 
@@ -14,17 +14,17 @@
 }
 
 .brand {
-  text-decoration: none;
-  color: #1C572F
+  text-decoration: none !important;
+  color: #1c572f !important;
 }
 
 .cart {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .name {
   margin-left: auto;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .bottomNavbar {
@@ -44,8 +44,8 @@
 
 .navbarLinks {
   margin: 0 1.5em 0 0;
-  color: #1C572F;
-  text-decoration: none;
+  color: #1c572f !important;
+  text-decoration: none !important;
   display: inline-block;
   position: relative;
 }
@@ -58,7 +58,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #1C572F;
+  background-color: #1c572f;
   transform-origin: center;
   transition: transform 0.5s ease-in-out;
 }
