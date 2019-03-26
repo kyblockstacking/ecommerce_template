@@ -17,7 +17,7 @@ class Navbar extends Component {
                 </div>
 
                 <div className='bottomNavbar'>
-                    <div className='subShopLabel'>SHOP</div>
+                    <a className='subShopLabel' href='/shop'>SHOP</a>
                     <a className='navbarLinks' href='#'>Plants</a>
                     <a className='navbarLinks' href='#'>Pots</a>
                     <a className='navbarLinks' href='#'>Accessories</a>
