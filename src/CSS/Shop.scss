@@ -9,3 +9,9 @@
   display: flex;
   justify-content: center;
 }
+
+.shopItems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
