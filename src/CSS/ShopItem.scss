@@ -13,8 +13,9 @@
   padding: 5%;
   border-radius: calc(0.25rem - 1px);
   color: #fff;
-  transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease, border-radius 0.5s ease;
   &:hover {
+    border-radius: 0;
     background-color: rgba(89, 156, 1, 0.85);
   }
 }
