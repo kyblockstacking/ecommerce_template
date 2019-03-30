@@ -3,12 +3,8 @@ import Card from 'react-bootstrap/Card';
 import '../../CSS/ShopItem.scss';
 
 class ShopItem extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
-
         const { title, description, src } = this.props;
 
         return (

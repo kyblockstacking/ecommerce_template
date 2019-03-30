@@ -10,12 +10,6 @@
   justify-content: center;
 }
 
-.shopItems {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .plantsTitle,
 .potsTitle {
   margin: 20px 0;
@@ -26,5 +20,5 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }

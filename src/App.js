@@ -6,6 +6,7 @@ import Landing from './Components/Landing.jsx';
 import FeaturedSection from './Components/FeaturedSection.jsx';
 
 import Shop from './Components/Shop.jsx';
+import ShopPots from './Components/ShopPots.jsx';
 
 class App extends Component {
   render() {
@@ -19,6 +20,9 @@ class App extends Component {
           <Route exact path='/' component={FeaturedSection} />
 
           <Route exact path='/shop' component={Shop} />
+          <Route exact path='/shop/pots' component={ShopPots} />
+          <Route exact path='/shop/plants' component={Shop} />
+          <Route exact path='/shop/accessories' component={Shop} />
         </div>
       </Router >
     );
