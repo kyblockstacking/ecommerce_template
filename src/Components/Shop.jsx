@@ -12,8 +12,18 @@ class Shop extends Component {
                 <h1 class='shopTitle'>DANK POT'S SHOP</h1>
                 <h2>Smokin' Hot Deals</h2>
                 <HotDealsCarousel />
-                <h2>Pots</h2>
-                <ShopItem title='pot1' description='description' src={pot1} />
+                <h2 className='plantsTitle'>Plants</h2>
+                <div className='plantsItemSection'>
+                    <ShopItem title='plant1' description='description' src={pot1} />
+                    <ShopItem title='plant2' description='description' src={pot1} />
+                    <ShopItem title='plant3' description='description' src={pot1} />
+                </div>
+                <h2 className='potsTitle'>Pots</h2>
+                <div className='potsItemSection'>
+                    <ShopItem title='pot1' description='description' src={pot1} />
+                    <ShopItem title='pot2' description='description' src={pot1} />
+                    <ShopItem title='pot3' description='description' src={pot1} />
+                </div>
             </div>
         );
     };
