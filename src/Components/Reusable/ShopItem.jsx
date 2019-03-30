@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
+import '../../CSS/ShopItem.scss';
 
 class ShopItem extends Component {
     constructor(props) {
@@ -11,7 +12,7 @@ class ShopItem extends Component {
         const { title, description, src } = this.props;
 
         return (
-            <Card style={{ width: '18rem' }}>
+            <Card className='shopItem' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={src} />
                 <Card.Body>
                     <Card.Title>
