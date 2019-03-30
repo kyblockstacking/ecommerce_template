@@ -6,8 +6,6 @@ import deal1 from '../Images/deal1.jpg';
 import deal2 from '../Images/deal2.jpg';
 import deal3 from '../Images/deal3.jpg';
 
-import FeatureBox from '../Components/Reusable/FeatureBox.jsx';
-
 class HotDealsCarousel extends Component {
     render() {
         return (
@@ -51,9 +49,6 @@ class HotDealsCarousel extends Component {
                 </Carousel>
 
                 <div class='shopItems'>
-                    <FeatureBox />
-                    <FeatureBox />
-                    <FeatureBox />
                 </div>
 
             </div>
