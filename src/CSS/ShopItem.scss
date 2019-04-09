@@ -1,9 +1,8 @@
 .shopItem {
-  margin: 10px 15px;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 10px 0px;
   transition: box-shadow 0.2s ease, transform 0.25s ease;
   &:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
   }
 }
