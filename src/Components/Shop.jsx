@@ -6,6 +6,7 @@ import ShopItem from '../Components/Reusable/ShopItem.jsx';
 import pot1 from '../Images/pot1.jpg';
 
 class Shop extends Component {
+
     render() {
         return (
             <div className='shop'>
